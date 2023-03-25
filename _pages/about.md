@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   address: >
     <p>Beihang University</p>
-    <p>Email: baichuanzhou@buaa.edu.cn</p>
+    <p>Email:baichuanzhou@buaa.edu.cn</p>
     <p>Beijing</p>
 
 news: false  # includes a list of news items
