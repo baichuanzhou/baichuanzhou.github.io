@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://baichuanzhou.github.io/sitemap.xml
