@@ -30,12 +30,6 @@ To elaborate, I'm interested in:
 
     
 My short term goal is to pursue a Ph.D. in Artificial Intelligence, and my long term goal is to explore ways to help reach Artificial General Intelligence. 
----
 
----
-layout: page
-title: project
-description: a project with a background image
-img: /assets/img/12.jpg
----
+
 
