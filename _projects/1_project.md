@@ -7,10 +7,10 @@ importance: 1
 category: 
 ---
 
-This project is partly inspired by [Tensorflow Playground](https://playground.tensorflow.org/)
+This project is partly inspired by [TensorFlow Playground](https://playground.tensorflow.org/)
 
 <div class="row">
-    <div style="text-align:center">
+    <div class="col-12 mt-3 mt-md-0">
         {% include figure.html path="assets/img/intuitive-classification.png" title="example dataset" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -20,5 +20,8 @@ This project is partly inspired by [Tensorflow Playground](https://playground.te
 
 # Background
 
-I built this visualizer (interactive demo: [here](https://baichuanzhou.github.io/Intuitive-Classification/)) when I first learned about neural networks. . I was (still am) absolutely amazed by how neural networks learn to transform representation space and shift input distribution. After playing with [Tensorflow Playground](https://playground.tensorflow.org/), I was a little perplexed as to how it works. (Backthen I don't know much about machine learning in general). After some exploring and digging, I finally got some idea in regards to what each visualization means. I felt that a more intuitive way would be to directly see how the representation space is shifted and transformed after passing through each layer.  And so I built this visualizer with [React](), and [tensorflow.js](). I simply borrowed some ideas from the playgroud, and I ended up implementing the visualizer from the ground up. Code is available [here](https://github.com/baichuanzhou/Intuitive-Classification)
+I built this visualizer (interactive demo: [here](https://baichuanzhou.github.io/Intuitive-Classification/)) when I first learned about neural networks. . I was (still am) absolutely amazed by how neural networks learn to transform representation space and shift input distribution. After playing with [TensorFlow Playground](https://playground.tensorflow.org/), I was a little perplexed as to how it works. (Backthen I don't know much about machine learning in general). After some exploring and digging, I finally got some ideas in regards to what those visualizations mean. I felt that a more intuitive way would be to directly see how the representation space is shifted and transformed after passing through each layer. I didn't find anything that can do this, so I built this visualizer with [React](https://react.dev/), and [TensorFlow.js](https://www.tensorflow.org/js). Code is available [here](https://github.com/baichuanzhou/Intuitive-Classification).
+
+# Interesting Properties
+
 
