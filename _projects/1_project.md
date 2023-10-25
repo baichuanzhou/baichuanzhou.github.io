@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Intuitive Classification
-description: a project with a background image
+description: Explain how neural networks classify in 2D space intuitively.
 img: assets/img/intuitive-classification.png
 importance: 1
 category: work
