@@ -25,7 +25,6 @@ I built this visualizer (interactive demo: [here](https://baichuanzhou.github.io
 <div style="text-align:center;">
     <img src="assets/img/projects/intuitive-classification/intro.gif" alt="intro gif" style="width: 400px; height: auto;" />
 </div>
-assets\img\projects\intuitive-classification\intro.gif
 
 This visualizer is pretty self-explanatory.
 
