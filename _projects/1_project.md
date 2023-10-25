@@ -22,7 +22,11 @@ I built this visualizer (interactive demo: [here](https://baichuanzhou.github.io
 
 # Introduction
 
-![Alt text](assets/img/projects/intuitive-classification/intro.gif)
+<div class="row">
+    <div class="col-12 mt-3 mt-md-0" style="display: flex; justify-content: center;">
+        {% include figure.html path="assets/img/projects/intuitive-classification/intro.gif" %}
+    </div>
+</div>
 
 This visualizer is pretty self-explanatory.
 
@@ -34,7 +38,7 @@ This visualizer is pretty self-explanatory.
 ## 2. Low dimension and XOR data
 
 
-## 
+## 3. Shift and rescale of BatchNorm
 
 
 
