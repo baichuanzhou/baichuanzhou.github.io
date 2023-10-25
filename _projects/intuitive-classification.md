@@ -11,11 +11,11 @@ This project is partly inspired by [Tensorflow Playground](https://playground.te
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/intuitive-classification.png" title="boundary example" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/intuitive-classification.png" title="example dataset" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Examples from [Intuitive Classification](https://baichuanzhou.github.io/Intuitive-Classification/)
+    This image can also have a caption. It's like magic.
 </div>
 
 
