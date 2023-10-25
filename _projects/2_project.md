@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
+title: Image to Text Generation with GPT-2
+description: Align CLIP's visual representation with GPT-2.
 img: assets/img/3.jpg
 importance: 2
 category: work
