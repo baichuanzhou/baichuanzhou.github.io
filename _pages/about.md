@@ -26,10 +26,13 @@ To elaborate, I'm interested in:
 
     2. Building generalist vision-language systems that are capable of handling a variety of computer vision/multimodal tasks. (Application) 
 
-    3. Improving the robustness and safety of Foundation Models. (Safety) 
+    3. Improving the robustness and safety of Foundation Models. (Trustworthy) 
 
     
 My short term goal is to pursue a Ph.D. in Artificial Intelligence, and my long term goal is to explore ways to help reach Artificial General Intelligence. 
+
+---
+
 
 
 
