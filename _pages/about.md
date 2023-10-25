@@ -18,13 +18,13 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I'm Baichuan Zhou, a senior undergraduate at Beihang University. Currently, I am a research intern at [State Key Laboratory of Software Development Environment](https://ev.buaa.edu.cn/info/1035/1862.htm), advised by [Prof. Lei Huang](https://huangleibuaa.github.io/). My research interests are generally in Computer Vision, Multimodal Language Models and Embodied AI. 
-To elaborate, I'm interested in:
-    - Interpreting how LLM/MLLMs encode their representations through transformers. (Interpretation)
-    - Building generalist agents that are capable of handling a variety of computer vision/multimodal tasks. (Application)
-    - Improving the robustness and safety of Foundation Models. (Safety)
+I'm Baichuan Zhou, a senior undergraduate at Beihang University. Currently, I am a research intern at [State Key Laboratory of Software Development Environment](https://ev.buaa.edu.cn/info/1035/1862.htm), advised by [Prof. Lei Huang](https://huangleibuaa.github.io/). My research interests are generally in Computer Vision, Multimodal Language Models and Embodied AI. \
+To elaborate, I'm interested in: \
+    - Interpreting how LLM/MLLMs encode their representations through transformers. (Interpretation) \
+    - Building generalist agents that are capable of handling a variety of computer vision/multimodal tasks. (Application) \
+    - Improving the robustness and safety of Foundation Models. (Safety) \
     
-My short term goal is to pursue a PhD in Artificial Intelligence, and my long term goal is to explore ways to help reach Artificial General Intelligence. 
+My short term goal is to pursue a Ph.D. in Artificial Intelligence, and my long term goal is to explore ways to help reach Artificial General Intelligence. 
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
