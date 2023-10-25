@@ -12,7 +12,7 @@ This project is partly inspired by [TensorFlow Playground](https://playground.te
 
 <div class="row">
     <div class="col-12 mt-3 mt-md-0" style="display: flex; justify-content: center;">
-        {% include figure.html path="assets/img/intuitive-classification.png" title="example dataset" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/demo.png" title="example dataset" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -25,6 +25,7 @@ I built this visualizer (interactive demo: [here](https://baichuanzhou.github.io
 <div style="text-align:center;">
     <img src="assets/img/projects/intuitive-classification/intro.gif" alt="intro gif" style="width: 400px; height: auto;" />
 </div>
+assets\img\projects\intuitive-classification\intro.gif
 
 This visualizer is pretty self-explanatory.
 
