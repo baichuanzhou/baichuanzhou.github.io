@@ -1,11 +1,13 @@
 ---
 layout: page
-title: project 1
+title: Intuitive Classification
 description: a project with a background image
-img: assets/img/12.jpg
+img: assets/img/intuitive-classification.png
 importance: 1
 category: work
 ---
+
+This project is partly inspired by [Tensorflow Playground](https://playground.tensorflow.org/)
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
