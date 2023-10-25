@@ -31,6 +31,12 @@ To elaborate, I'm interested in:
     
 My short term goal is to pursue a Ph.D. in Artificial Intelligence, and my long term goal is to explore ways to help reach Artificial General Intelligence. 
 
+---
+layout: page
+title: project
+description: a project with a background image
+img: /assets/img/12.jpg
+---
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
