@@ -31,14 +31,16 @@ I built this visualizer (interactive demo: [here](https://baichuanzhou.github.io
 This visualizer is pretty self-explanatory.\
  On the top navigation, I designed some hyper-parameter tuning options. Compared to  [TensorFlow Playground](https://playground.tensorflow.org/), I added a few more options such as optimizer, normalization layer, initialization methods and which layer to visualize.\
  On the top right, users are allowed to define arbitrary number of layers with arbitrary number of neurons in each layer. Theorically, it supports up to one thousand neurons per layer (up to four layers).\
-Two important visualizations here: the left one updates decision boundary in real time, the right one updates the output in 2D space.
+Two important visualizations here: the left one updates decision boundary in real time, the right one updates the output in the selected 2 dimensional space.
 
 <div class="row">
     <div class="col-md-6 text-center">
         {% include figure.html path="assets/img/projects/intuitive-classification/decision-boundary.png" title="Decision Boundary" class="img-fluid rounded z-depth-1" %}
+    <p class="caption">left visualization</p>
     </div>
     <div class="col-md-6 text-center">
         {% include figure.html path="assets/img/projects/intuitive-classification/output.png" title="Output" class="img-fluid rounded z-depth-1" %}
+    <p class="caption">right visualization</p>
     </div>
 </div>
 
@@ -46,7 +48,7 @@ Two important visualizations here: the left one updates decision boundary in rea
 
 ## 1. LayerNorm can act as a non-linear layer.
 
-
+When I added the normalization methods to the navigation bar, I found that LayerNorm introduces non-linearality to the output distribution, which I did not expect.
 ## 2. Low dimension and XOR data
 
 
