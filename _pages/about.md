@@ -27,7 +27,7 @@ To elaborate, I'm interested in:
 
     2. Building generalist vision-language systems that are capable of handling a variety of computer vision/multimodal tasks. (Application)
 
-    3. Exploring efficient ways to align modalities efficiently. (Alignment)
+    3. Exploring efficient ways to align different modalities. (Alignment)
 
     4. Improving the robustness and safety of Foundation Models. (Trustworthy) 
 
