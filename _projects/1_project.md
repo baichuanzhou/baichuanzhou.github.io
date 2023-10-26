@@ -35,7 +35,7 @@ Two important visualizations here: the left one updates decision boundary in rea
 
 <div class="row">
     <div class="col-md-6 text-center">
-        {% include figure.html path="assets/img/projects/intuitive-classification/decision_boundary.png" title="Decision Boundary" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/projects/intuitive-classification/decision-boundary.png" title="Decision Boundary" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-md-6 text-center">
         {% include figure.html path="assets/img/projects/intuitive-classification/output.png" title="Output" class="img-fluid rounded z-depth-1" %}
