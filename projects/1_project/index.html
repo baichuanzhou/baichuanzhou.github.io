@@ -132,7 +132,7 @@ This project is partly inspired by <a href="https://playground.tensorflow.org/" 
 
 <p>I built this visualizer (interactive demo: <a href="https://baichuanzhou.github.io/Intuitive-Classification/">here</a>) when I first learned about neural networks. I was (still am) absolutely amazed by how neural networks learn to transform representation space and shift input distribution. After playing with <a href="https://playground.tensorflow.org/" rel="external nofollow noopener" target="_blank">TensorFlow Playground</a>, I was a little perplexed as to how it works. (Backthen I don’t know much about machine learning in general). After some exploring and digging, I finally got some ideas in regards to what those visualizations mean. I felt that a more intuitive way would be to directly see how the representation space is shifted and transformed after passing through each layer. I didn’t find anything that can do this, so I built this visualizer with <a href="https://react.dev/" rel="external nofollow noopener" target="_blank">React</a>, and <a href="https://www.tensorflow.org/js" rel="external nofollow noopener" target="_blank">TensorFlow.js</a>. Code is available <a href="https://github.com/baichuanzhou/Intuitive-Classification" rel="external nofollow noopener" target="_blank">here</a>.</p>
 
-<h1 id="introduction">Introduction</h1>
+<h1 id="basic-usage">Basic Usage</h1>
 
 <div class="row">
     <div class="col-12 mt-3 mt-md-0" style="display: flex; justify-content: center;">
@@ -151,7 +151,41 @@ This project is partly inspired by <a href="https://playground.tensorflow.org/" 
     </div>
 </div>
 
-<p>This visualizer is pretty self-explanatory.</p>
+<p>This visualizer is pretty self-explanatory.<br>
+ On the top navigation, I designed some hyper-parameter tuning options. Compared to  <a href="https://playground.tensorflow.org/" rel="external nofollow noopener" target="_blank">TensorFlow Playground</a>, I added a few more options such as optimizer, normalization layer, initialization methods and which layer to visualize.<br>
+ On the top right, users are allowed to define arbitrary number of layers with arbitrary number of neurons in each layer. Theorically, it supports up to one thousand neurons per layer (up to four layers).<br>
+Two important visualizations here: the left one updates decision boundary in real time, the right one updates the output in 2D space.</p>
+
+<div class="row">
+    <div class="col-md-6 text-center">
+        <figure>
+
+  <picture>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/projects/intuitive-classification/decision_boundary.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Decision Boundary" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+    </div>
+    <div class="col-md-6 text-center">
+        <figure>
+
+  <picture>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/projects/intuitive-classification/output.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Output" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
 
 <h1 id="interesting-properties">Interesting Properties</h1>
 
