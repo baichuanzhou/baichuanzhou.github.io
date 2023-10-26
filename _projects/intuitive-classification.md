@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Intuitive Classification
-description: Explain how neural networks classify in 2D space intuitively.
+description: A visual explanation of neural works.
 img: assets/img/projects/intuitive-classification/demo.png
 importance: 1
 category: 
@@ -29,9 +29,9 @@ I built this visualizer (interactive demo: [here](https://baichuanzhou.github.io
 </div>
 
 This visualizer is pretty self-explanatory.\
- On the top navigation, I designed some hyper-parameter tuning options. Compared to  [TensorFlow Playground](https://playground.tensorflow.org/), I added a few more options such as optimizer, normalization layer, initialization methods and which layer to visualize.\
- On the top right, users are allowed to define arbitrary number of layers with arbitrary number of neurons in each layer. Theorically, it supports up to one thousand neurons per layer (up to four layers).\
-Two important visualizations here: the left one updates decision boundary in real time, the right one updates the output in the selected 2 dimensional space.
+ On the navigation bar, I designed an interface for tuning hyper-parameters. Compared to  [TensorFlow Playground](https://playground.tensorflow.org/), I added a few more options such as optimizer, normalization methods, initialization methods and layer visualization options.\
+ On the top right, users are allowed to define arbitrary number of layers with arbitrary number of neurons with arbitrary number of layers.\
+The visualization on the left updates decision boundary in real time, while the right visualization updates the output in the selected 2 dimensional space.\
 
 <div class="row">
     <div class="col-md-6 text-center">
@@ -48,7 +48,8 @@ Two important visualizations here: the left one updates decision boundary in rea
 
 ## 1. LayerNorm can act as a non-linear layer.
 
-When I added the normalization methods to the navigation bar, I found that LayerNorm introduces non-linearality to the output distribution, which I did not expect.
+During experiments, I found that LayerNorm can act as a non-linear layer.
+
 ## 2. Low dimension and XOR data
 
 
