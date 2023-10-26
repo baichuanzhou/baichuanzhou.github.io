@@ -12,7 +12,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Intuitive Classification | Baichuan  Zhou</title>
     <meta name="author" content="Baichuan  Zhou">
-    <meta name="description" content="Explain how neural networks classify in 2D space intuitively.">
+    <meta name="description" content="A visual explanation of neural works.">
 
 
     <!-- Bootstrap & MDB -->
@@ -104,7 +104,7 @@
 
           <header class="post-header">
             <h1 class="post-title">Intuitive Classification</h1>
-            <p class="post-description">Explain how neural networks classify in 2D space intuitively.</p>
+            <p class="post-description">A visual explanation of neural works.</p>
           </header>
 
           <article>
@@ -152,9 +152,9 @@ This project is partly inspired by <a href="https://playground.tensorflow.org/" 
 </div>
 
 <p>This visualizer is pretty self-explanatory.<br>
- On the top navigation, I designed some hyper-parameter tuning options. Compared to  <a href="https://playground.tensorflow.org/" rel="external nofollow noopener" target="_blank">TensorFlow Playground</a>, I added a few more options such as optimizer, normalization layer, initialization methods and which layer to visualize.<br>
- On the top right, users are allowed to define arbitrary number of layers with arbitrary number of neurons in each layer. Theorically, it supports up to one thousand neurons per layer (up to four layers).<br>
-Two important visualizations here: the left one updates decision boundary in real time, the right one updates the output in the selected 2 dimensional space.</p>
+ On the navigation bar, I designed an interface for tuning hyper-parameters. Compared to  <a href="https://playground.tensorflow.org/" rel="external nofollow noopener" target="_blank">TensorFlow Playground</a>, I added a few more options such as optimizer, normalization methods, initialization methods and layer visualization options.<br>
+ On the top right, users are allowed to define arbitrary number of layers with arbitrary number of neurons with arbitrary number of layers.<br>
+The visualization on the left updates decision boundary in real time, while the right visualization updates the output in the selected 2 dimensional space.\</p>
 
 <div class="row">
     <div class="col-md-6 text-center">
@@ -193,7 +193,8 @@ Two important visualizations here: the left one updates decision boundary in rea
 
 <h2 id="1-layernorm-can-act-as-a-non-linear-layer">1. LayerNorm can act as a non-linear layer.</h2>
 
-<p>When I added the normalization methods to the navigation bar, I found that LayerNorm introduces non-linearality to the output distribution, which I did not expect.</p>
+<p>During experiments, I found that LayerNorm can act as a non-linear layer.</p>
+
 <h2 id="2-low-dimension-and-xor-data">2. Low dimension and XOR data</h2>
 
 <h2 id="3-shift-and-rescale-of-batchnorm">3. Shift and rescale of BatchNorm</h2>
