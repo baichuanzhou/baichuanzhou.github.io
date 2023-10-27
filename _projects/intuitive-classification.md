@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Intuitive Classification
-description: A visual explanation of neural works.
+description: A visual explanation of neural networks.
 img: assets/img/projects/intuitive-classification/demo.png
 importance: 1
 category: 
