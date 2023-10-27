@@ -202,7 +202,7 @@ The visualization on the left updates decision boundary in real time, while the 
 
 <p>LayerNorm shifts and rescales input distribution per element, which introduces non-linearality. In the section, I try using intuitive visualization to demonstrate this.</p>
 
-<h3 id="layernorm-exhibited-non-linearality">LayerNorm exhibited non-linearality</h3>
+<h3 id="layernorm-exhibits-non-linearality">LayerNorm exhibits non-linearality</h3>
 
 <div class="row">
     <div class="col-12 mt-3 mt-md-0" style="display: flex; justify-content: center;">
@@ -225,8 +225,7 @@ The visualization on the left updates decision boundary in real time, while the 
 </div>
 <p>After setting the activation function to “Linear” (identity function in my implementation), all other layers except softmax can only shift and rescale input distribution. However, LayerNorm was able to “extract” the orange dots, and transform distribution in such a way that it became linear separable for later layers.</p>
 
-<h3 id="batchnorm-does-not-behave-this-way">BatchNorm does not behave this way.</h3>
-
+<h3 id="batchnorm-is-linear">BatchNorm is linear</h3>
 <div class="row">
     <div class="col-12 mt-3 mt-md-0" style="display: flex; justify-content: center;">
         <figure>
