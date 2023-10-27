@@ -7,3 +7,4 @@ importance: 2
 category: work
 ---
 
+Interective huggingface space demo is [here](https://huggingface.co/spaces/bczhou/clip-gpt2)
