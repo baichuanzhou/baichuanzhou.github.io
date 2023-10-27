@@ -157,7 +157,7 @@ This project is partly inspired by <a href="https://playground.tensorflow.org/" 
 <p>This visualizer is pretty self-explanatory.<br>
  On the navigation bar, I designed an interface for tuning hyper-parameters. Compared to  <a href="https://playground.tensorflow.org/" rel="external nofollow noopener" target="_blank">TensorFlow Playground</a>, I added a few more options such as optimizer, normalization methods, initialization methods and layer visualization options.<br>
  On the top right, users are allowed to define arbitrary number of layers with arbitrary number of neurons with arbitrary number of layers.<br>
-The visualization on the left updates decision boundary in real time, while the right visualization updates the output in the selected 2 dimensional space.\</p>
+The visualization on the left updates decision boundary in real time, while the right visualization updates the output in the selected 2 dimensional space.</p>
 
 <div class="row">
     <div class="col-md-6 text-center">
@@ -200,7 +200,7 @@ The visualization on the left updates decision boundary in real time, while the 
 
 <h2 id="1-layernorm-can-act-as-a-non-linear-layer">1. LayerNorm can act as a non-linear layer.</h2>
 
-<p>In theory, it is not proven. But in a 2D setting, the visualization is pretty straight forward.</p>
+<p>LayerNorm shifts and rescales input distribution per element, which introduces non-linearality. In the section, I try using intuitive visualization to demonstrate this.</p>
 
 <h3 id="layernorm-exhibited-non-linearality">LayerNorm exhibited non-linearality</h3>
 
@@ -248,8 +248,6 @@ The visualization on the left updates decision boundary in real time, while the 
 </div>
 
 <p>BatchNorm can only shift and rescale input distribution uniformly, it does not hold visible non-linearality. I think it’s because mean and variance are handled unanimously across batch, while layernorm handles mean and variance per element, which introduces non-linear properties.</p>
-
-<h2 id="2-low-dimension-and-xor-data">2. Low dimension and XOR data</h2>
 
 
           </article>
