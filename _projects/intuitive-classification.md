@@ -57,7 +57,7 @@ The visualization on the left updates decision boundary in real time, while the 
 
 In theory, it is not proven. But in a 2D setting, the visualization is pretty straight forward.
 
-### ayerNorm exhibited non-linearality
+### LayerNorm exhibited non-linearality
 
 <div class="row">
     <div class="col-12 mt-3 mt-md-0" style="display: flex; justify-content: center;">
@@ -67,7 +67,7 @@ In theory, it is not proven. But in a 2D setting, the visualization is pretty st
         LayerNorm Demo
     </div>
 </div>
-After setting the activation function to "Linear" (identity function in my implementation), all other layers except softmax can only shift and rescale input distribution. Only LayerNorm was able to "extract" the orange dots, and transform distribution in such a way that it became linear separable. 
+After setting the activation function to "Linear" (identity function in my implementation), all other layers except softmax can only shift and rescale input distribution. However, LayerNorm was able to "extract" the orange dots, and transform distribution in such a way that it became linear separable for later layers. 
 
 ### BatchNorm does not behave this way.
 
@@ -79,6 +79,8 @@ After setting the activation function to "Linear" (identity function in my imple
         BatchNorm Demo
     </div>
 </div>
+
+BatchNorm can only shift and rescale input distribution uniformly, it does not hold visible non-linearality. I think it's because mean and variance are handled unanimously across batch, while layernorm handles mean and variance per element, which introduces non-linear properties.
 
 ## 2. Low dimension and XOR data
 
