@@ -57,7 +57,7 @@ The visualization on the left updates decision boundary in real time, while the 
 
 LayerNorm shifts and rescales input distribution per element, which introduces non-linearality. In the section, I try using intuitive visualization to demonstrate this.
 
-### LayerNorm exhibited non-linearality
+### LayerNorm exhibits non-linearality
 
 <div class="row">
     <div class="col-12 mt-3 mt-md-0" style="display: flex; justify-content: center;">
@@ -69,8 +69,7 @@ LayerNorm shifts and rescales input distribution per element, which introduces n
 </div>
 After setting the activation function to "Linear" (identity function in my implementation), all other layers except softmax can only shift and rescale input distribution. However, LayerNorm was able to "extract" the orange dots, and transform distribution in such a way that it became linear separable for later layers. 
 
-### BatchNorm does not behave this way.
-
+### BatchNorm is linear
 <div class="row">
     <div class="col-12 mt-3 mt-md-0" style="display: flex; justify-content: center;">
         {% include figure.html path="assets/img/projects/intuitive-classification/batchnorm.gif" %}
@@ -81,7 +80,6 @@ After setting the activation function to "Linear" (identity function in my imple
 </div>
 
 BatchNorm can only shift and rescale input distribution uniformly, it does not hold visible non-linearality. I think it's because mean and variance are handled unanimously across batch, while layernorm handles mean and variance per element, which introduces non-linear properties.
-
 
 
 
