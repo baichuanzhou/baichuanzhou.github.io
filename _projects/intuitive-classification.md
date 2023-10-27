@@ -36,11 +36,15 @@ The visualization on the left updates decision boundary in real time, while the 
 <div class="row">
     <div class="col-md-6 text-center">
         {% include figure.html path="assets/img/projects/intuitive-classification/decision-boundary.png" title="Decision Boundary" class="img-fluid rounded z-depth-1" %}
-    <p class="caption">left visualization</p>
+        <div class="caption">
+            Left Visualization
+        </div>
     </div>
     <div class="col-md-6 text-center">
         {% include figure.html path="assets/img/projects/intuitive-classification/output.png" title="Output" class="img-fluid rounded z-depth-1" %}
-    <p class="caption">right visualization</p>
+        <div class="caption">
+            Right Visualization
+        </div>
     </div>
 </div>
 
@@ -48,7 +52,17 @@ The visualization on the left updates decision boundary in real time, while the 
 
 ## 1. LayerNorm can act as a non-linear layer.
 
-During experiments, I found that LayerNorm can act as a non-linear layer.
+During experiments, LayerNorm exhibits non-linear properties.
+
+<div class="row">
+    <div class="col-12 mt-3 mt-md-0" style="display: flex; justify-content: center;">
+        {% include figure.html path="assets/img/projects/intuitive-classification/layernorm.gif" %}
+    </div>
+    <div class="caption">
+        LayerNorm Demo
+    </div>
+</div>
+As you can see
 
 ## 2. Low dimension and XOR data
 
