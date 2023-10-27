@@ -34,7 +34,7 @@ I built this visualizer (interactive demo: [here](https://baichuanzhou.github.io
 This visualizer is pretty self-explanatory.\
  On the navigation bar, I designed an interface for tuning hyper-parameters. Compared to  [TensorFlow Playground](https://playground.tensorflow.org/), I added a few more options such as optimizer, normalization methods, initialization methods and layer visualization options.\
  On the top right, users are allowed to define arbitrary number of layers with arbitrary number of neurons with arbitrary number of layers.\
-The visualization on the left updates decision boundary in real time, while the right visualization updates the output in the selected 2 dimensional space.\
+The visualization on the left updates decision boundary in real time, while the right visualization updates the output in the selected 2 dimensional space.
 
 <div class="row">
     <div class="col-md-6 text-center">
@@ -55,7 +55,7 @@ The visualization on the left updates decision boundary in real time, while the 
 
 ## 1. LayerNorm can act as a non-linear layer.
 
-In theory, it is not proven. But in a 2D setting, the visualization is pretty straight forward.
+LayerNorm shifts and rescales input distribution per element, which introduces non-linearality. In the section, I try using intuitive visualization to demonstrate this.
 
 ### LayerNorm exhibited non-linearality
 
@@ -82,7 +82,6 @@ After setting the activation function to "Linear" (identity function in my imple
 
 BatchNorm can only shift and rescale input distribution uniformly, it does not hold visible non-linearality. I think it's because mean and variance are handled unanimously across batch, while layernorm handles mean and variance per element, which introduces non-linear properties.
 
-## 2. Low dimension and XOR data
 
 
 
