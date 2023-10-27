@@ -197,7 +197,7 @@ The visualization on the left updates decision boundary in real time, while the 
 
 <h2 id="1-layernorm-can-act-as-a-non-linear-layer">1. LayerNorm can act as a non-linear layer.</h2>
 
-<p>During experiments, LayerNorm exhibits non-linear properties.</p>
+<h3 id="during-experiments-layernorm-exhibited-some-non-linear-properties">During experiments, LayerNorm exhibited some non-linear properties.</h3>
 
 <div class="row">
     <div class="col-12 mt-3 mt-md-0" style="display: flex; justify-content: center;">
@@ -218,11 +218,31 @@ The visualization on the left updates decision boundary in real time, while the 
         LayerNorm Demo
     </div>
 </div>
-<p>As you can see</p>
+<p>After setting the activation function to “Linear” (identity function in my implementation), all other layers except softmax can only shift and rescale input distribution. Only LayerNorm was able to “extract” the orange dots, and transform distribution in such a way that it became linear separable.</p>
+
+<h3 id="batchnorm-does-not-behave-this-way">BatchNorm does not behave this way.</h3>
+
+<div class="row">
+    <div class="col-12 mt-3 mt-md-0" style="display: flex; justify-content: center;">
+        <figure>
+
+  <picture>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/projects/intuitive-classification/batchnorm.gif" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+    </div>
+    <div class="caption">
+        BatchNorm Demo
+    </div>
+</div>
 
 <h2 id="2-low-dimension-and-xor-data">2. Low dimension and XOR data</h2>
-
-<h2 id="3-shift-and-rescale-of-batchnorm">3. Shift and rescale of BatchNorm</h2>
 
 
           </article>
