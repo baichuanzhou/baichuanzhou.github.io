@@ -26,6 +26,9 @@ I built this visualizer (interactive demo: [here](https://baichuanzhou.github.io
     <div class="col-12 mt-3 mt-md-0" style="display: flex; justify-content: center;">
         {% include figure.html path="assets/img/projects/intuitive-classification/intro.gif" %}
     </div>
+    <div class="caption" style="display: flex; justify-content: center;">
+            Introduction
+    </div>
 </div>
 
 This visualizer is pretty self-explanatory.\
@@ -36,13 +39,13 @@ The visualization on the left updates decision boundary in real time, while the 
 <div class="row">
     <div class="col-md-6 text-center">
         {% include figure.html path="assets/img/projects/intuitive-classification/decision-boundary.png" title="Decision Boundary" class="img-fluid rounded z-depth-1" %}
-        <div class="caption">
+        <div class="caption" style="display: flex; justify-content: center;">
             Left Visualization
         </div>
     </div>
     <div class="col-md-6 text-center">
         {% include figure.html path="assets/img/projects/intuitive-classification/output.png" title="Output" class="img-fluid rounded z-depth-1" %}
-        <div class="caption">
+        <div class="caption" style="display: flex; justify-content: center;">
             Right Visualization
         </div>
     </div>
@@ -52,13 +55,15 @@ The visualization on the left updates decision boundary in real time, while the 
 
 ## 1. LayerNorm can act as a non-linear layer.
 
-### During experiments, LayerNorm exhibited some non-linear properties.
+In theory, it is not proven. But in a 2D setting, the visualization is pretty straight forward.
+
+### ayerNorm exhibited non-linearality
 
 <div class="row">
     <div class="col-12 mt-3 mt-md-0" style="display: flex; justify-content: center;">
         {% include figure.html path="assets/img/projects/intuitive-classification/layernorm.gif" %}
     </div>
-    <div class="caption">
+    <div class="caption" style="display: flex; justify-content: center;">
         LayerNorm Demo
     </div>
 </div>
@@ -70,7 +75,7 @@ After setting the activation function to "Linear" (identity function in my imple
     <div class="col-12 mt-3 mt-md-0" style="display: flex; justify-content: center;">
         {% include figure.html path="assets/img/projects/intuitive-classification/batchnorm.gif" %}
     </div>
-    <div class="caption">
+    <div class="caption" style="display: flex; justify-content: center;">
         BatchNorm Demo
     </div>
 </div>
