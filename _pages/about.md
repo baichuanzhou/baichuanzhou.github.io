@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href='https://ev.buaa.edu.cn/'>Beihang University</a>
 
