@@ -32,3 +32,15 @@
 "Planck":
   - firstname: ["Max"]
     url: https://en.wikipedia.org/wiki/Max_Planck
+
+"Zhou":
+  - firstname: ["Baichuan"]
+    url: https://baichuanzhou.github.io/
+
+"Huang":
+  - firstname: ["Lei"]
+    url: https://huangleibuaa.github.io/
+
+"Weng":
+  - firstname: ["Xi"]
+    url: https://winci-ai.github.io/
