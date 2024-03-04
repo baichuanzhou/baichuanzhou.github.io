@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: Selected Papers
+description: 
 years: [2024]
 nav: true
 nav_order: 1
