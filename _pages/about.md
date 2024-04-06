@@ -19,7 +19,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 # About me
-I'm Baichuan Zhou, a senior undergraduate at Beihang University. Currently, I am a research intern at [State Key Laboratory of Software Development Environment](https://ev.buaa.edu.cn/info/1035/1862.htm), advised by [Prof. Lei Huang](https://huangleibuaa.github.io/). My research interests are generally in Computer Vision, Multimodal Language Models and Embodied AI. 
+I'm Baichuan Zhou, a senior undergraduate at Beihang University. Currently, I am a research intern at [Shanghai AI Lab](https://opendatalab.com/), and my mentor is [Prof. Weijia Li](https://liweijia.github.io/). At Beihang University, I also work closely with [Prof. Lei Huang](https://huangleibuaa.github.io/). My research interests are generally in Computer Vision, Multimodal Language Models and Embodied AI. 
 
 To elaborate, I'm interested in: 
 
