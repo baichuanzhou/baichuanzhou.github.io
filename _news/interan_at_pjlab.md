@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I joined [Open DataLab](https://opendatalab.com/) as a research intern. 🫡
+I joined [Open Data Lab](https://opendatalab.com/) at Shanghai AI Lab as a research intern. 🫡
