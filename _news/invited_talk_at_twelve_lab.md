@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Invited Talk at online [Twevle Labs(https://www.twelvelabs.io/)] Seminar. See [here](https://youtu.be/QSqkdAMwAKo?si=0ZczvYVy8nzxozQ5).
+Invited Talk at online [Twevle Labs](https://www.twelvelabs.io/) Seminar. See [here](https://youtu.be/QSqkdAMwAKo?si=0ZczvYVy8nzxozQ5).
